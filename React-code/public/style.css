@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+body{
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    padding: 0 1.5rem;
+}
+
+/*COMEÇO DO HEADER*/
+header{
+    background-color: #3a86ff;
+    margin: auto -1.6rem;
+    padding: 1.2rem 2.5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+  
+header h1{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+}
+/*FIM DO HEADER*/
+
+/*COMEÇO DO FOOTER*/
+footer{
+    margin-top: 2rem;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+  
+footer p{
+    color: black;
+}
+/*FIM DO FOOTER*/
+
+/*COMEÇO DA ANOTAÇÃO JÁ CRIADA*/
+.note{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 1.2rem;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1{
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.note p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+  
+.note button{
+    font-size: 1rem;
+    position: relative;
+    float: right;
+    margin-right: 2.4rem;
+    color: #3a86ff;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+}
+/*FIM DA ANOTAÇÃO*/
+
+/*COMEÇO DO FORM QUE CRIA AS ANOTAÇÕES*/
+form.create-note {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 35rem;
+  margin: 3rem auto 2rem auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  font-size: 2.5rem;
+  right: 1.9rem;
+  bottom: -1.2rem;
+  background: #3a86ff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+/*FIM DO FORM CRIADOR*/
